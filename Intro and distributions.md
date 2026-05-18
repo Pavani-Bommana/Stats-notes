@@ -16,3 +16,21 @@ Variance ($\sigma^2$ or $s^2$): The average squared deviation from the mean.
 Standard Deviation ($\sigma$ or $s$): The square root of the variance, bringing the metric back to the original unit of measurement.
 Range: The difference between the maximum and minimum values.
 Interquartile Range (IQR): $Q_3 - Q_1$, representing the middle 50% of the data. Excellent for spotting outliers.
+
+
+
+**Probability**
+The 4 Foundational Distributions
+1. The Bernoulli Distribution (Discrete)
+2. The Binomial Distribution (Discrete)
+3. The Poisson Distribution (Discrete)
+4. The Normal / Gaussian Distribution (Continuous)
+
+Some other imported types of distributions are - 
+**Negative Binomial distribution:** When your genomic count data breaks the Poisson rule (Variance $>$ Mean), you mix a Poisson distribution with a Gamma distribution. The result is the Negative Binomial, which allows the variance to stretch.
+**Multinomial distribution:** When your Bernoulli trial has more than two outcomes (e.g., instead of just "Success/Failure", you have four alleles: A, C, T, or G), the Binomial distribution turns into the Multinomial distribution.
+**Hypergeometric distribution:** f you are drawing samples without replacement (like pulling unique genes out of a genome pool where the pool gets smaller with each draw), the Binomial distribution becomes the Hypergeometric distribution.
+
+
+
+      
