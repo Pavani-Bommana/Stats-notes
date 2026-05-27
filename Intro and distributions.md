@@ -32,5 +32,25 @@ Some other imported types of distributions are -
 **Hypergeometric distribution:** f you are drawing samples without replacement (like pulling unique genes out of a genome pool where the pool gets smaller with each draw), the Binomial distribution becomes the Hypergeometric distribution.
 
 
+<img width="1613" height="917" alt="image" src="https://github.com/user-attachments/assets/5ef6b24a-5412-4f25-851b-df1f1487993f" />
+
+According to Richard, At its core, **Bayesian inference** is a logical method for learning from data. Unlike other statistical frameworks that focus on testing hypotheses with error rates, the Bayesian approach treats parameters (like the proportion of water on a globe) as things we are uncertain about. We represent this uncertainty with probability distributions.
+
+**Bayesian Updating:** The process of taking your existing knowledge (a prior), looking at new evidence (data), and refining your knowledge to reach a new, updated conclusion (a posterior).
+
+1. Generative Model: You start by defining a process that could plausibly create the data you are observing. In this lecture, it is the "globe tossing" model
+2. Estimand (The Question): This is the specific thing you want to learn about the world. In the globe example, it is the parameter P, representing the proportion of the globe covered in water
+3.  Bayesian Estimator: This is the mathematical "motor" that combines your generative model with the observed data to produce an estimate
+4.  Estimate (Posterior Distribution): This is the final product. It is a distribution of relative plausibilities for every possible value of your parameter
+5.  Posterior Prediction/Utility: Once you have the estimate, you don't just stop at a number. You use the entire distribution to generate posterior predictions. You push the uncertainty from your posterior back through the generative model to create forecasts, check if your model fits the data, or determine effect sizes
+
+The Estimate is the Distribution: A single number (like a mean) is just a summary for communication. The real "answer" is the whole curve representing your uncertainty 
+
+Probability distribution: Before knowing the estimate, we consider all posible estimates for eg, say finding percentatge of globe covered by water, if we don't have any actual data we consider all 0-100%, these are called pririor probalbilties, as we toss the globe, got some data we will get to know some percentage of water then 0% becaomes impossible, we elimninate 0%, as we get new observation data we remove impossible probabilities- this is called bayesian updating, and the proportions obtained after the calculations are called posterior probablities. 
+
+It is not searching for one "magic" number. You are constantly refining a distribution of possibilities to see where the evidence is pushing you
+
+
+
 
       
