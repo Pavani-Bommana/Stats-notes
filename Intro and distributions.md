@@ -21,16 +21,21 @@ Interquartile Range (IQR): $Q_3 - Q_1$, representing the middle 50% of the data.
 
 **Probability**
 The 4 Foundational Distributions
-1. The Bernoulli Distribution (Discrete)
-2. The Binomial Distribution (Discrete)
-3. The Poisson Distribution (Discrete)
-4. The Normal / Gaussian Distribution (Continuous)
+1. The Bernoulli Distribution (Discrete- Binary: exactly $0$ or $1$, eg: SNPs )
+2. The Binomial Distribution (Discrete, Counts with a fixed ceiling, $0$ to $n$)
+3. The Poisson Distribution (Discrete, Counts with no fixed ceiling, $0$ to infinity))
+4. The Normal / Gaussian Distribution (Continuous, can take any decimal or fractional value within a range)
 
 Some other imported types of distributions are - 
 **Negative Binomial distribution:** When your genomic count data breaks the Poisson rule (Variance $>$ Mean), you mix a Poisson distribution with a Gamma distribution. The result is the Negative Binomial, which allows the variance to stretch.
 **Multinomial distribution:** When your Bernoulli trial has more than two outcomes (e.g., instead of just "Success/Failure", you have four alleles: A, C, T, or G), the Binomial distribution turns into the Multinomial distribution.
 **Hypergeometric distribution:** f you are drawing samples without replacement (like pulling unique genes out of a genome pool where the pool gets smaller with each draw), the Binomial distribution becomes the Hypergeometric distribution.
 
+<img width="752" height="543" alt="image" src="https://github.com/user-attachments/assets/f8f5568e-27d2-4bb3-a6f0-6240ad376911" />
+
+
+Bayes theorem comes under, **probability theory:**
+Bayes' Theorem is the fundamental formula used to compute and update conditional probabilities when new data becomes available.
 
 <img width="1613" height="917" alt="image" src="https://github.com/user-attachments/assets/5ef6b24a-5412-4f25-851b-df1f1487993f" />
 
