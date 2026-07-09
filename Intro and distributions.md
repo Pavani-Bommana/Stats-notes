@@ -55,7 +55,15 @@ Probability distribution: Before knowing the estimate, we consider all posible e
 
 It is not searching for one "magic" number. You are constantly refining a distribution of possibilities to see where the evidence is pushing you
 
-
+| Feature | Discrete Distributions | Continuous Distributions |
+| :--- | :--- | :--- |
+| **Data Type** | Integers / Countable values | Decimals / Measurable ranges |
+| **Gaps between values?**| Yes (Cannot have 1.5 successes) | No (Infinite values between 1 and 2) |
+| **Function Used** | Probability Mass Function (PMF) | Probability Density Function (PDF) |
+| **Exact Value Prob.** | Calculable, e.g., $P(X = k)$ | Always Zero, $P(X = k) = 0$ |
+| **How to find Prob.** | Sum individual probabilities ($\sum$) | Find area under the curve ($\int$) |
+| **Genomics Metric** | Sequencing read counts, cell counts | Log2 Fold Change, DNA fragment lengths |
+| **Key Examples** | Bernoulli, Binomial, Poisson, Negative Binomial | Normal (Gaussian), Beta, Gamma, Log-Normal |
 
 
       
